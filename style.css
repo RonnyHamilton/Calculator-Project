@@ -1,0 +1,113 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.calculator {
+    background-color: #17181A;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.calculator {
+    border-radius: 20px;
+}
+
+.output {
+    border-radius: 20px 20px 0 0;
+}
+
+.output {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(40, 40, 40);
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+
+}
+
+.signs {
+    width: 60px;
+    height: 60px;
+}
+
+.numbers {
+    padding: 27px;
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    grid-template-rows: repeat(3, 70px);
+    color: #D4D4D2;
+    gap: 23px;
+}
+
+.num {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #505050;
+    border-radius: 200px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.signs {
+    color: white;
+}
+
+.add,
+.subtract,
+.multiply,
+.division {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF9500;
+    font-size: 25px;
+    font-weight: bolder;
+    width: 70px;
+    height: 70px;
+    border-radius: 200px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    color: white;
+    border: 0px;
+}
+
+.allclear,.equal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF9500;
+    font-size: 25px;
+    font-weight: bolder;
+    width: 70px;
+    height: 70px;
+    color: white;
+    border-radius: 200px;
+    margin: 0px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.output {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: right;
+    transition: all 0.2s ease;
+}
+
+.output>h3 {
+    padding: 30px 10px;
+}
