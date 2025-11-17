@@ -203,18 +203,21 @@ body {
     top: 40px;
     left: 530px;
     border-radius: 20px;
+    overflow-y: auto;
 }
-.historyelement{
+.historyelement {
     display: block;
     padding-top: 20px;
     width: 890px;
-
     padding-bottom: 10px;
     padding-left: 50px;
+
+
 }
+
 .historyelement:first-child:hover{
         color: white;
-    border-radius: 20px;
+
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     background-color: #878787;
@@ -225,3 +228,16 @@ body {
     border-bottom-right-radius: 0px;
     background-color: #878787;
 }
+.historyelement {
+    display: block;
+    padding-top: 20px;
+    width: 890px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+
+    /* --- FIX OVERFLOW --- */
+    overflow-wrap: break-word; /* breaks long numbers */
+    word-wrap: break-word;     /* older support */
+    white-space: normal;       /* allow the text to wrap */
+}
+
