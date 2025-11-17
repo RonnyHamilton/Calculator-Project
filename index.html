@@ -6,44 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
 
 <body>
-    <div class="calculator">
-        <div class="output">
-            <h3></h3>
-        </div>
-        <div class="controls">
-            <div class="signs">
-                <button class="add sign">+</button>
-                <button class="subtract sign">-</button>
-                <button class="multiply sign">*</button>
-                <button class="division sign">/</button>
+    <div class="main">
+        <div class="calculator">
+            <div class="output">
+                <div class="outputtext"></div>
+            </div>
+            <div class="mainbox">
+                <div class="numbersbox">
+                    <div class="btn number">0</div>
+                    <div class="btn number">1</div>
+                    <div class="btn number">2</div>
+                    <div class="btn number">3</div>
+                    <div class="btn number">4</div>
+                    <div class="btn number">5</div>
+                    <div class="btn number">6</div>
+                    <div class="btn number">7</div>
+                    <div class="btn number">8</div>
+                    <div class="btn number">9</div>
+                </div>
+                <div class="operators">
+                    <div class="btn add">+</div>
+                    <div class="btn subtract">-</div>
+                    <div class="btn mutiply">*</div>
+                    <div class="btn division">/</div>
+                </div>
+                <div class="extrabtns">
+                    <div class="btn equal"><img src="equal-sign-svgrepo-com.svg" width="20px"
+                            style="margin:65px auto ;"></div>
+                    <div class="btn backspace" style="font-size: 13px;">
+                        <h4>B/S</h4>
+                    </div>
+
+                </div>
 
             </div>
-            <div class="numbers">
-                <button class="num">0</button>
-                <button class="num">1</button>
-                <button class="num">2</button>
-                <button class="num">3</button>
-                <button class="num">4</button>
-                <button class="num">5</button>
-                <button class="num">6</button>
-                <button class="num">7</button>
-                <button class="num">8</button>
-                <button class="allclear">AC</button>
-                <button class="equal">=</button>
-                <button class="num">9</button>
+            <div class="btn allclear" style="font-size: 13px;">
+                <h1>A/C</h1>
             </div>
+        </div>
+        <div class="history">
 
         </div>
-        <script src="script.js"></script>
     </div>
+    <div class="error">
+        <h2>Error</h2>
+        <p>enter number first</p>
+    </div>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
