@@ -19,8 +19,6 @@ You can try it live here: https://ronnyhamilton.github.io/Calculator-Project/
 - CSS  
 - JavaScript  
 
-*(Optionally: you can mention if you're using any libraries or version constraints — for this project it's pure vanilla JS.)*
-
 ## 🚀 How to Use / Run Locally
 
 1. Clone or download the project repository to your local machine.  
