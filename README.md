@@ -18,9 +18,3 @@ You can try it live here: https://ronnyhamilton.github.io/Calculator-Project/
 - HTML  
 - CSS  
 - JavaScript  
-
-## 🚀 How to Use / Run Locally
-
-1. Clone or download the project repository to your local machine.  
-   ```bash
-   git clone <your-repo-url>
